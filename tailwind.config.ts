@@ -52,6 +52,23 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				success: {
+					DEFAULT: 'hsl(var(--success))',
+					foreground: 'hsl(var(--success-foreground))'
+				},
+				excel: {
+					green: 'hsl(var(--excel-green))',
+					light: 'hsl(var(--excel-light))'
+				},
+				code: {
+					bg: 'hsl(var(--code-bg))',
+					border: 'hsl(var(--code-border))'
+				},
+				upload: {
+					border: 'hsl(var(--upload-border))',
+					bg: 'hsl(var(--upload-bg))',
+					hover: 'hsl(var(--upload-hover))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -88,7 +105,13 @@ export default {
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-up': 'fade-up 0.5s ease-out',
+				'slide-in': 'slide-in 0.3s ease-out'
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-subtle': 'var(--gradient-subtle)'
 			}
 		}
 	},
